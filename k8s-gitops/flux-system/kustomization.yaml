@@ -5,8 +5,8 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  path: "./sample-docker-app"
+  path: "./apps/python-api"
   prune: true
   sourceRef:
     kind: GitRepository
-    name: flux-repo
+    name: k8s-gitops

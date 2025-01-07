@@ -1,10 +1,12 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: flux-repo
+  name: k8s-gitops
   namespace: flux-system
 spec:
   interval: 1m
   url: https://github.com/sojay/flux-repo
   ref:
-    branch: main
+    branch: release
+  secretRef:
+    name: flux-git-deploy               
