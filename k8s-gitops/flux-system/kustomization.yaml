@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  path: "./apps/python-api"
+  path: "./apps/python-api/"
   prune: true
   sourceRef:
     kind: GitRepository
