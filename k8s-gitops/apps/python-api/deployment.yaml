@@ -20,3 +20,5 @@ spec:
         image: ghcr.io/sojay/sample-app:54db676
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+        - name: gh-deploy
