@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: python-api-app
-        image: ghcr.io/sojay/sample-app:latest
+        image: ghcr.io/sojay/sample-app:54db676
         ports:
         - containerPort: 8080
