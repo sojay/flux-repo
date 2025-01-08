@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  url: https://github.com/sojay/flux-repo
+  url: https://github.com/sojay/flux-repo/tree/release/k8s-gitops/apps/python-api
   ref:
     branch: release
   secretRef:
